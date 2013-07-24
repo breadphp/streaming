@@ -1,0 +1,24 @@
+{
+	"name" : "bread/streaming",
+	"description" : "Bread streaming library",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Giovanni Lovato",
+			"email" : "heruan@aldu.net"
+		}
+	],
+	"keywords" : [
+		"streaming"
+	],
+	"license" : [
+		"CC-BY-3.0"
+	],
+	"require" : {
+		"php" : ">=5.4"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"Bread\\Streaming" : "src"
+		}
+	}
+}
