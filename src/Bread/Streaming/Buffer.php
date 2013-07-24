@@ -108,8 +108,7 @@ class Buffer extends Event\Emitter implements Interfaces\Writable
         restore_error_handler();
         if (false === $sent) {
             $this->emit('error', array(
-                new ErrorException($this->lastError['message'], 0, $this->lastError['number'], 
-                    $this->lastError['file'], $this->lastError['line'])
+                new ErrorException($this->lastError['message'], 0, $this->lastError['number'], $this->lastError['file'], $this->lastError['line'])
             ));
             return;
         }
