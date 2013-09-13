@@ -8,8 +8,10 @@
 		}
 	],
 	"keywords" : [
+		"bread",
 		"streaming"
 	],
+	"homepage" : "https://github.com/breadphp/streaming",
 	"license" : [
 		"CC-BY-3.0"
 	],
